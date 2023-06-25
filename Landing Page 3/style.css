@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(198, 244, 244);
+}
+
+.main img{
+    height: 650px;
+    position: relative;
+    z-index: 99;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.scroll-div{
+    position: absolute;
+    top: 23%;
+    width: 100%;
+    /* height: 100px; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 30px;
+    letter-spacing: 4px;
+}
+
+.scroll-div::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll-div h1{
+    display: inline-block;
+    font-size: 140px;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    animation: scroll 1.5s linear infinite ;
+    letter-spacing: 4px;
+}
+
+
+
+.scroll-div2{
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    /* height: 100px; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 30px;
+    letter-spacing: 4px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    z-index: 100 ;
+}
+
+.scroll-div2::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll-div2 h1{
+    display: inline-block;
+    font-size: 140px;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    animation: scroll 3s reverse linear infinite;
+}
+
+
+.scroll-div3{
+    position: absolute;
+    top: 67%;
+    width: 100%;
+    /* height: 100px; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-right: 30px;
+    letter-spacing: 4px;
+}
+
+.scroll-div3::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll-div3 h1{
+    display: inline-block;
+    font-size: 140px;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    animation: scroll 1.5s linear infinite;
+    letter-spacing: 2px;
+}
+
+.text{
+    font-size: 35px;
+    position: absolute;
+    font-family: 'Philosopher', sans-serif;
+    width: 50%;
+    z-index: 101;
+    text-align: center;
+    top: 11.5%;
+    text-transform: uppercase;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(calc( -100% - 32px));
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
