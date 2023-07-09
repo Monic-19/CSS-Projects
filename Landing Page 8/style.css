@@ -9,6 +9,21 @@ body {
     overflow-x: hidden;
 }
 
+@font-face {
+    font-family: Canopee;
+    src: url(Canopee.ttf);
+}
+
+@font-face {
+    font-family: DomaineDispCondMedium;
+    src: url(DomaineDispCondMedium.ttf);
+}
+
+@font-face {
+    font-family: EditorialNew-Light;
+    src: url(EditorialNew-Light.ttf);
+}
+
 
 .page1 {
     height: 120vh;
