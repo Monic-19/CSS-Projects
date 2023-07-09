@@ -15,12 +15,9 @@ A List of Projects that are made by using HTML and CSS.
 <br>
 
 ## (3) Modern Chair Project
-<p align="left">
-<img width="600" alt="Screenshot 2023-06-29 at 1 23 29 AM" src="https://github.com/Monic-19/CSS-Projects/assets/118365854/6fdd3ccb-daf4-4e3d-9cfb-218b9a022dc8">
+<p align="center">
+<img width="1440" alt="Screenshot 2023-06-29 at 1 23 29 AM" src="https://github.com/Monic-19/CSS-Projects/assets/118365854/6fdd3ccb-daf4-4e3d-9cfb-218b9a022dc8">
 </p>
-<p align="right">
-<img width="600" alt="Screenshot 2023-06-29 at 1 23 43 AM" src="https://github.com/Monic-19/CSS-Projects/assets/118365854/68c2a0f0-956e-41e8-92fb-4b5669323cba">
-<p/>
 <br>
 
 ## (4) Landing Page 1
@@ -59,10 +56,14 @@ A List of Projects that are made by using HTML and CSS.
 </p>
 <br>
 
+## (10) Landing Page 7
+<p align="center">
+</p><img width="1440" alt="Screenshot 2023-07-10 at 1 19 36 AM" src="https://github.com/Monic-19/CSS-Projects/assets/118365854/ecb14eae-1d7f-4475-9eea-5099442e97ab">
+<br>
+
 ## (11) Landing Page 8
 <p align="center">
   <img width="1440" alt="Screenshot 2023-07-08 at 10 42 40 PM" src="https://github.com/Monic-19/CSS-Projects/assets/118365854/4207230b-2d3e-45af-b6ea-1ffea43ccc11">
-
 </p>
 <br>
 
