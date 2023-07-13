@@ -1,0 +1,1051 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: SFPRODISPLAY;
+    src: url(SF\ PRO\ DISPLAY.ttf);
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+    font-family: SFPRODISPLAY;
+    background-color: #000000;
+}
+
+.page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+
+    >nav{
+        height: 7vh;
+        width: 50vw;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        color: #fff;
+
+        >h3{
+            font-weight: 400;
+        }
+
+        >button{
+            padding: 7px 20px;
+            border-radius: 50px;
+            border: none;
+            background: #fff;
+        }
+    }
+
+    >video{
+        height: 100%;
+        width: 50%;
+        object-fit: cover;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    >.page-bottom{
+        height: 20%;
+        width: 50%;
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        >h3{
+            color: rgb(132, 132, 132);
+            font-size: 3vh;
+            margin-bottom: 1vw;
+        }
+    }
+
+}
+
+.page1 ,.page2, .page3 ,.page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    >h1{
+        position: absolute;
+        font-size: 5vw;
+        color: #fff;
+        font-weight: 400;
+        top: 50%;
+        left :50%;
+        transform: translateX(-50%);
+        width: 90%;
+    }
+
+    >video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.gap{
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+
+.page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    >img{
+        margin-bottom: 4vh;
+    }
+
+    >.components{
+        display: flex;
+        gap: 3vw;
+        font-size: 20px;
+        color: orange;
+        margin-bottom: 2vh;
+
+        >.c1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .5vw;
+
+            >span{
+                font-size:25px;
+            }
+        }
+    }
+
+    >h3{
+        color: #86868B;
+    }
+
+    >.main-img{
+        margin-top: 5vh;
+
+        >img{
+            width: 1000px;
+        }
+    }
+
+    >button{
+        border: 2px solid black;
+        border-radius: 50px;
+        padding:18px 42px;
+        font-size: 19px;
+        background-color: #fff;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4vh;
+
+        >span{
+            padding-right: 2vw;
+            font-size: 40px;
+        }
+    }
+    
+    >button:hover{
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+.page6 ,.page7, .page8 ,.page9 ,.page21{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    >video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    >h3{
+        position: absolute;
+        color: #fff;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 27px;
+    }
+
+    >h1{
+        position: absolute;
+        color: #fff;
+        top: 45%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 77px;
+        width: 80%;
+    }
+}
+
+.gap2, .gap3, .gap4, .gap5 ,.gap6 ,.gap7 ,.gap8 ,.gap9{  
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+    background-color: #fff;
+
+    >.left{
+        width: 40%;
+        height: 100%;
+        text-align: left;
+        padding-left: 15%;
+    }
+
+    >.right{
+        width: 60%;
+        height: 100%;
+        padding-left: 5%;
+
+        >h2{
+            width: 65%;
+            color: #86868B;
+            font-size: 1.5vw;
+        }
+
+        >button{
+            border: none;
+            border-radius: 50px;
+            padding:15px 30px;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 8vh;
+            color: #fff;
+            background: rgb(255, 89, 0);
+            font-size: 18px;
+    
+            >span{
+                padding-right: 1vw;
+            }
+        }
+        
+        >button:hover{
+            background-color: #FF6B2B;
+        }
+    }
+}
+
+.page10{
+    height: 70vh;
+    width: 100vw;
+    background: #F5F5F7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >h1{
+        font-size: 80px;
+        margin-bottom: 6vh;
+    }
+    
+    >h3{
+        font-size: 25px;
+        font-weight: 900;
+        margin-bottom: 1.5vh;
+    }
+
+    >p{
+        color: #86868B;
+        font-weight: bolder;
+        font-size: 25px;
+        font-weight: 100;
+        line-height: 35px;
+        text-align: center;
+    }
+}
+
+.page11{
+    position: relative;
+    background: #F5F5F7;
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 10;
+}
+
+.page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #F5F5F7;
+     
+     >h1{
+        width: 17%;
+        color: #86868B;
+        font-size: 1.4vw;
+        position: absolute;
+        z-index: 12;
+        left: 15%;
+
+        >span{
+            color: #000;
+            font-weight: 900;
+        }
+     }
+}
+
+
+.page13{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #F5F5F7;
+
+    >h1{
+        width: 17%;
+        color: #86868B;
+        font-size: 1.4vw;
+        position: absolute;
+        z-index: 12;
+        right: 14%;
+
+        >span{
+            color: #000;
+            font-weight: 900;
+        }
+    }
+}
+
+.page14{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+   background: #F5F5F7;
+
+   >h1{
+    width: 17%;
+    color: #86868B;
+    font-size: 1.4vw;
+    position: absolute;
+    z-index: 12;
+    left: 15%;
+
+    >span{
+        color: #000;
+        font-weight: 900;
+    }
+ }
+}
+
+.page15{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #F5F5F7;
+
+    >h1{
+        width: 17%;
+        color: #86868B;
+        font-size: 1.4vw;
+        position: absolute;
+        z-index: 12;
+        left: 15%;
+
+        >span{
+            color: #000;
+            font-weight: 900;
+        }
+     }
+}
+
+.page16{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+   background: #F5F5F7;
+
+   >h1{
+    width: 17%;
+    color: #86868B;
+    font-size: 1.4vw;
+    position: absolute;
+    z-index: 12;
+    right: 14%;
+
+    >span{
+        color: #000;
+        font-weight: 900;
+    }
+}
+}
+
+.page17{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #F5F5F7;
+
+    >h1{
+        width: 17%;
+        color: #86868B;
+        font-size: 1.4vw;
+        position: absolute;
+        z-index: 12;
+        left: 15%;
+
+        >span{
+            color: #000;
+            font-weight: 900;
+        }
+     }
+}
+
+.page18{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    display: flex;
+    padding: 2vw 2vh;
+    gap: 2vw;
+
+    >.one{
+        height: 100%;
+        width: 50%;
+        background-color: red;
+        background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large_2x.jpg);
+        background-size: cover;
+    }
+
+    >.two{
+        height: 100%;
+        width: 50%;
+        background-color: rgb(0, 30, 255);
+        background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large_2x.jpg);
+        background-size: cover;
+    }
+    
+}
+
+.page19{
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    padding: 2vw 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.page20{
+    height: 150vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    position: relative;
+
+    >.text{
+        padding-top: 5vh;
+        >p{
+           text-align: center;
+           width: 45%;
+           margin: auto;
+           font-size: 20px;
+           letter-spacing: 1px;
+           white-space: 20px;
+           word-spacing: 1.5px;
+           color: #86868B;
+
+           >b{
+            color: #000;
+           }
+        }
+    }
+
+    >img{
+        height: 950px;
+    }
+
+    >button{
+        border: none;
+        border-radius: 50px;
+        padding:25px 40px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4vh;
+        color: #fff;
+        background: rgb(255, 89, 0);
+        font-size: 18px;
+        position: absolute;
+        bottom: 12%;
+
+        >span{
+            padding-right: 1vw;
+        }
+    }
+    
+    >button:hover{
+        background-color: #FF6B2B;
+    }
+}
+
+.page22{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vw;
+    gap: 2vw;
+    background-color: #fff;
+
+    >.left{
+        height: 100%;
+        width: 50%;
+        background: #000;
+        background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/scaling_ui__gosi0305um2y_large_2x.jpg);
+        background-size: cover;
+    }
+
+    >.right{
+        height: 100%;
+        width: 50%;
+        background: #F5F5F7;
+        background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/spatial_interaction__br11mf88bzxy_large_2x.jpg);
+        background-size: cover;
+    }
+}
+
+.page23{
+    height: 100vh;
+    width: 100vw;
+    padding:2vw 4vw;
+    background-color: #fff;
+
+    >.center{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/environment_mt_hood__bowcnbltk57m_medium_2x.jpg);
+        background-size: cover;
+
+        >.left{
+            position: absolute;
+            top: 50%;
+            left: 4%;
+            cursor: pointer;
+        }
+
+        >.right{
+            position: absolute;
+            top: 50%;
+            right: 4%;
+            cursor: pointer;
+        }
+
+        .bottom{
+            position: absolute;
+            left : 46%;
+            bottom: 10%;
+            transform: translateX("-50%");
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #E6E6E6;
+            gap: 2vw;
+            font-size: 90px;
+
+            >.b1{
+                color: #ffffff;
+                cursor: pointer;
+            }
+
+            >.b2{
+                color: #86868B;
+                cursor: pointer;
+            }
+
+            >.b3{
+                color: #86868B;
+                cursor: pointer;
+            }
+
+        }
+    }
+
+}
+
+.material-symbols-outlined{
+    color: #ffffff;
+    scale: 3;
+}
+
+.page24{
+    height: 100vh;
+    width: 100vw;
+    padding: 2vw 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: #ffffff; 
+ 
+
+    >.center{
+        height: 100%;
+        width: 100%;
+        background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/visionos/around_you__bfdlxkwczahe_large_2x.jpg);
+        background-size: cover;
+    }
+}
+
+.gap6, .gap7, .gap8{
+    height: 45vh;
+}
+
+.page25{
+    height: 90vh;
+    width: 100vw;
+    background: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    >h3{
+        font-size: 25px;
+    }
+
+    >h1{
+        font-size: 75px;
+        text-align: center;
+    }
+
+    >p{
+        margin-top: 7vh;
+        font-size: 25px;
+        text-align: center;
+        color: #86868B;
+
+        >span{
+            color: white;
+        }
+    }
+}
+
+.page26{
+    margin-bottom: -4vh;
+    background-color: #000;
+}
+
+.page27{
+    height: 40vh;
+    width: 100vw;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    text-align: center;
+    color: white;
+
+    >h2{
+        font-size: 35px;
+    }
+
+    >h3{
+        font-size: 20px;
+        line-height: 30px;
+        color: #86868B;
+
+        >span{
+            color: white;
+        }
+    }
+}
+
+.page28{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+    >video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        /* position: absolute; */
+    }
+
+    >.text{
+        position: absolute;
+        color: white;
+        bottom: 10%;
+        right: 17%;
+
+        >h2{
+            font-size: 35px;
+            margin-bottom: 4vh;
+        }
+
+        >p{
+            font-size: 20px;
+            line-height: 30px;
+            color: #86868B;
+
+            >span{
+                color: white;
+            }
+        }
+    }
+}
+
+
+.page29 ,.page30{
+    height: 150vh;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    position: relative;
+
+
+    >.off{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        width: 70%;
+        z-index: 10;
+    }
+
+    >.on{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        width: 70%;
+    }
+
+    .text{
+        padding-top: 10vh;
+        background-color: #000000;
+        height: 40vh;
+        position: absolute;
+        z-index: 100;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        color: #fff;
+        text-align: center;
+
+        >h2{
+            font-size: 35px;
+            margin-bottom: 5vh;
+        }
+
+        >h3{
+            font-size: 20px;
+            letter-spacing: 1px;
+            line-height: 25px;
+            color: #86868B;
+
+            >span{
+                color: white;
+            }
+        }
+    }
+}
+
+.page31{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding-top: 18vh;
+    
+    >img{
+        opacity: 0.2;
+    }
+
+}
+
+.page32{
+    height: 70vh;
+    width: 100vw;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+    >h2{
+        font-size: 33px;
+    }
+
+    >h3{
+        margin-top: 5vh;
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 100;
+        color: #86868B;
+        >span{
+            color: white;
+        }
+    }
+    
+      >button{
+        
+        border: 2px solid black;
+        border-radius: 50px;
+        padding:8px 25px;
+        font-size: 18px;
+        background-color: #fff;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8vh;
+
+        >span{
+            padding-right: 2vw;
+            font-size: 40px;
+        }
+    }
+    
+    >button:hover{
+        background-color: #E6E6E6;
+
+    }
+}
+
+.page33{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    text-align: center;
+
+    >h3{
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    >h1{
+        font-size: 80px;
+    }
+
+    >p{
+        font-size: 25px;
+        line-height: 35px;
+        color: #86868B;
+
+        >span{
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    >button{
+        border: none;
+        border-radius: 50px;
+        padding:17px 30px;
+        font-weight: 900;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 8vh;
+        color: #fff;
+        background: rgb(255, 89, 0);
+        font-size: 18px;
+
+        >span{
+            padding-right: 1vw;
+            font-size: 25px;
+            font-weight: 100;
+        }
+    }
+    
+    >button:hover{
+        background-color: #FF6B2B;
+    }
+}
+
+
+.page34{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2vw 4vw;
+    padding-top: 6vw;
+
+    >.center{
+        width: 100%;
+        height: 100%;
+        background-color: #F5F5F7;
+        display: flex;
+       
+
+        >.left{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 2vh;
+            padding-left: 8vw;
+
+            >img{
+                margin-top: -20vh;
+                width: 10%;
+            }
+
+            >h1{
+                font-size: 55px;
+                line-height: 65px;
+            }
+
+            >h2{
+                font-size: 25px;
+                color: #86868B;
+                line-height: 35px;
+                word-spacing: 1px;
+            }
+        }
+
+        .right{
+            width: 40%;
+            height: 100%;
+            background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/routers/ar_tile__que64jqs2t2e_medium_2x.jpg);
+            background-size: cover;
+        }
+    }
+}
+
+
+.page35{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 2vw 4vw;
+    padding-top: 1vw;
+
+    >.center{
+        width: 100%;
+        height: 100%;
+        background-color: #F5F5F7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >img{
+            margin-left: -2vh;
+        }
+
+        >h1{
+            margin-top: 3vh;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        >h3{
+            margin-top: 3vh;
+            width: 70%;
+            text-align: center;
+            font-size: 24px;
+            line-height: 34px;
+            font-weight: lighter;
+            color: #1D1D1F;
+        }
+
+        >.link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            >h4{
+                margin-top: 3vh;
+            color: #0065CC;
+            font-size: 25px;
+
+              >span{
+                margin-left: .5vw;
+              }
+            }
+        }
+    }
+
+}
+
+.page36{
+    height: 70vh;
+    width: 100vw;
+    background-color: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+
+    >p{
+        margin-top: 2vh;
+        font-size: 12px;
+        line-height: 18px;
+        margin-left: 30%;
+
+    }
+
+    >.line{
+        margin-top: 2vh;
+        margin-left: 30%;
+        height: 1px;
+        width: 40%;
+        background-color: #86868B;
+    }
+}
