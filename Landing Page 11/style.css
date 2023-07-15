@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.nav{
+    background-color: rgb(255, 255, 255 ,0.4) ;
+    width: 40vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    position: absolute;
+    top: 0.25%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    >img{
+        width: 50px;
+    }
+
+    >h3{
+        font-weight: 100;
+    }
+
+    >h4{
+        font-weight: 100;
+        background-color: #FFCD6D;
+        padding: 17px;
+        border-radius: 15px;
+    }
+
+    >h4:hover{
+        background-color: #FED687;
+    }
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E5E0DE;
+    position: relative;
+
+    >canvas{
+        height: 100vh;
+        width: 100vw;
+        z-index: 10;
+    }
+
+    >h1{
+        position: absolute;
+        z-index: 11;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        text-align: center;
+        font-size: 90px;
+        font-family :Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+
+    >h3{
+        position: absolute;
+        z-index: 11;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        text-align: center;
+        font-size: 22px;
+        font-family :Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        line-height: 30px;
+        word-spacing: 2px;
+    }
+}
+
+.gap1{
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    position: relative;
+    z-index: 11;
+    
+}
+
+.page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(229, 224, 222);
+    position: relative;
+
+    >h1{
+        z-index: 10;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        text-align: center;
+        font-size: 90px;
+        font-family :Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+
+    >h3{
+        z-index: 10;
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        text-align: center;
+        font-size: 22px;
+        font-family :Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        line-height: 30px;
+        word-spacing: 2px;
+    } 
+}
+
+
+
+.page2{
+    position: relative;
+    background-color: rgb(229, 224, 222);
+    z-index: 10;
+    >h1{
+        font-size: 50px;
+    }
+
+    >h3{
+        top: 58%;
+    }
+}
+
