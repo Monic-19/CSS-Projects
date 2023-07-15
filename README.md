@@ -81,6 +81,11 @@ A List of Projects that are made by using HTML and CSS.
 <br>
 
 
+## (14) Landing Page 11
+<p align="center">
+<img width="1440" alt="Screenshot 2023-07-15 at 4 50 56 PM" src="https://github.com/Monic-19/CSS-Projects/assets/118365854/ec8d0376-6f62-49e5-a960-bf7095de673a">
+</p>
+<br>
 
 
 
