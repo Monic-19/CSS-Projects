@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Office', sans-serif;
+
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.frames{
+    display: flex;
+}
+
+.frame{
+    height: 5vw;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.frame span{
+    height: 5vw;
+    font-size: 3vw;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    text-align: center;
+    padding: 0 5vw;
+    cursor: pointer;
+    /* transform: translateY(-5vw); */
+}
+
+.circle{
+    z-index: 5;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    background: peru;  
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
