@@ -116,6 +116,12 @@ A List of Projects that are made by using HTML and CSS.
 <img width="1440" alt="Screenshot 2023-07-28 at 7 24 29 PM" src="https://github.com/Monic-19/CSS-Projects/assets/118365854/56ecc6a6-cad3-4e76-afe9-e314bfb6eb3a">
 Video Link : https://github.com/Monic-19/CSS-Projects/assets/118365854/cf472cd9-5cd4-43c2-8679-22fde73bd930
 
+</p>
+<br>
+
+## (19) Landing Page 16
+<p align="center">
+<img width="1440" alt="Screenshot 2023-07-31 at 6 05 40 PM" src="https://github.com/Monic-19/CSS-Projects/assets/118365854/187d1996-f861-4fbb-bdec-f6121b695999">
 
 </p>
 <br>
